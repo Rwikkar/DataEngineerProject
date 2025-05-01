@@ -1,0 +1,13 @@
+{
+	"name": "gitHubLinkedService",
+	"properties": {
+		"description": "This is a github linked service",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
